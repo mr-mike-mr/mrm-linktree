@@ -1,0 +1,44 @@
+/* BODY */
+body {
+    background-color: #151515;
+    font-family: "JetBrains Mono", monospace !important;
+}
+
+/* MAIN CONTAINER > NAME */
+.name {
+    color: #d9d9d9;
+}
+
+/* SECOND CONTAINER */
+.second-container {
+    max-width: 70%;
+}
+
+/* SECOND CONTAINER > ABOUT CONTAINER */
+.about-container {
+    color: #d9d9d9;
+    border-color: #444444;
+}
+.about-title-container {
+    font-size: 18px;
+}
+.about-text-container {
+    font-size: 14px;
+}
+
+/* SECOND CONTAINER > LINKS CONTAINER */
+.link-container {
+    color: #d9d9d9;
+    border-color: #444444;
+    font-size: 18px;
+}
+
+/* SECOND CONTAINER > SPOTIFY RECENTLY PLAYED CONTAINER */
+.spotify-recently-played-container {
+    border-color: #444444;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

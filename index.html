@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+    <title>MRM$LinkTree</title> <!-- title -->
+    <link rel='icon' type='image/x-icon' href='favicon.ico'> <!-- icon -->
+    <meta charset='UTF-8'> <!-- utf8 character set -->
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'> <!-- viewport -->
+    <link rel='stylesheet' href='styles.css'> <!-- styles.css -->
+    <script src='https://cdn.tailwindcss.com'></script>  <!-- tailwind.css cdn -->
+    <script src='https://kit.fontawesome.com/63a952167a.js' crossorigin='anonymous'></script> <!-- fontawesome -->
+    <!-- google font -->
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap' rel='stylesheet'> <!-- https://fonts.google.com/selection/embed -->
+</head>
+<body>
+    <!-- MAIN CONTAINER -->
+    <div class='main-container max-h-full max-w-full flex flex-col flex-wrap content-center items-center'>
+        <!-- PROFILE PICTURE -->
+        <img class='rounded-full w-40 h-40' src='pfp.jpg'> <!-- image -->
+
+        <!-- NAME -->
+        <h1 class='name text-5xl font-extrabold'>
+            MR.MIKE$
+        </h1>
+
+        <!-- AUDIO PLAYER -->
+        <audio autoplay preload="metadata" class='mb-3'> <!-- audio player -->
+            <source src='audio.mp3' type='audio/mpeg'> <!-- audio source -->
+            Your browser does not support the audio element. <!-- not support audio message -->
+        </audio>
+
+        <!-- SECOND CONTAINER -->
+        <div class='second-container p-2 flex flex-col flex-wrap items-center'>
+            <!-- ABOUT CONTAINER -->
+            <div class='about-container rounded-2xl border-2 border-solid h-full w-full flex flex-col flex-wrap items-center'>
+                <!-- ABOUT TITLE CONTAINER -->
+                <h1 class='about-title-container font-extrabold hover:underline hover:decoration-solid hover:decoration-2 hover:text-white'>
+                    ABOUT
+                </h1>
+                <!-- ABOUT TEXT CONTAINER -->
+                <p class='about-text-container font-normal px-3 pb-2 flex flex-wrap text-justify'>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis efficitur consequat.
+                    Praesent nunc lacus, congue eget imperdiet nec, pulvinar at libero.
+                    Ut a lorem sit amet libero lobortis pulvinar sit amet vitae nisl.
+                    Curabitur maximus ipsum sed dolor condimentum pharetra.
+                    Nunc semper mauris ac luctus rutrum.
+                    Morbi leo nulla, sagittis ac consectetur ac, aliquam id magna.
+                    Nullam quis dolor lacus.
+                    Aenean sit amet volutpat nisi.
+                    Nunc mi orci, pretium et iaculis sit amet, bibendum a mauris.
+                    Suspendisse lacinia lacus et massa tristique rutrum.
+                    Ut ullamcorper a elit at commodo.
+                    Aliquam commodo fermentum placerat.
+                    Curabitur quis mollis felis.
+                    Pellentesque at pharetra nisi, laoreet porttitor lacus.
+                </p>
+            </div>
+
+            <!-- GITHUB LINK CONTAINER -->
+            <div class='link-container min-w-full font-normal border-2 border-solid rounded-2xl mt-1 p-1 text-center'>
+                <i class='fa-brands fa-github text-base'></i> <!-- icon -->
+                <a href='https://github.com/mr-mike-mr' class='hover:underline hover:decoration-solid hover:decoration-2 hover:text-white' target='_blank'>mr-mike-mr</a> <!-- link -->
+            </div>
+            <!-- DISCORD SERVER LINK CONTAINER -->
+            <div class='link-container min-w-full font-normal border-2 border-solid rounded-2xl mt-1 p-1 text-center'>
+                <i class='fa-brands fa-discord text-base'></i> <!-- icon -->
+                <a href='https://discord.com/invite/SK8Z3uV72k' class='hover:underline hover:decoration-solid hover:decoration-2 hover:text-white' target='_blank'>MRM Studio</a> <!-- link -->
+            </div>
+            <!-- YOUTUBE LINK CONTAINER -->
+            <div class='link-container min-w-full font-normal border-2 border-solid rounded-2xl mt-1 p-1 text-center'>
+                <i class='fa-brands fa-youtube text-base'></i> <!-- icon -->
+                <a href='https://www.youtube.com/channel/UCXXvGivA8ePpgdAGxum5KWQ' class='hover:underline hover:decoration-solid hover:decoration-2 hover:text-white' target='_blank'>_mrm_studio_</a> <!-- link -->
+            </div>
+            <!-- TIKTOK LINK CONTAINER -->
+            <div class='link-container min-w-full font-normal border-2 border-solid rounded-2xl mt-1 p-1 text-center'>
+                <i class='fa-brands fa-tiktok text-base'></i> <!-- icon -->
+                <a href='https://www.tiktok.com/@_mrm_studio_?_t=8khc02ggjcf&_r=1' class='hover:underline hover:decoration-solid hover:decoration-2 hover:text-white' target='_blank'>_mrm_studio_</a> <!-- link -->
+            </div>
+            <!-- SPOTIFY CONTAINER -->
+            <div class='link-container min-w-full font-normal border-2 border-solid rounded-2xl mt-1 p-1 text-center'>
+                <i class='fa-brands fa-spotify text-base'></i> <!-- icon -->
+                <a href='https://open.spotify.com/user/31jqrdtnm4stjqr5hrtl4yendbta' class='hover:underline hover:decoration-solid hover:decoration-2 hover:text-white' target='_blank'>mr.mike</a> <!-- link -->
+            </div>
+
+            <!-- GITHUB STATS CONTAINER -->
+            <div class='mt-2'>
+                <a href='https://github.com/mr-mike-mr' target='_blank'> <!-- link -->
+                    <img src='https://github-readme-stats.vercel.app/api?username=mr-mike-mr&theme=dark'> <!-- image -->
+                </a>
+            </div>
+
+            <!-- GITHUB MOST USED LANGUAGES CONTAINER -->
+            <div class='mt-1'>
+                <a href='https://github.com/mr-mike-mr' target='_blank'> <!-- ling -->
+                    <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=mr-mike-mr&theme=dark'> <!-- image -->
+                </a>
+            </div>
+
+            <!-- SPOTIFY RECENTLY PLAYED CONTAINER -->
+            <div class='spotify-recently-played-container mt-2 border-2 border-solid'>
+                <a href='https://open.spotify.com/user/31jqrdtnm4stjqr5hrtl4yendbta' target='_blank'> <!-- link -->
+                    <img src='https://spotify-recently-played-readme.vercel.app/api?user=31jqrdtnm4stjqr5hrtl4yendbta&count=5&unique=true' alt='Spotify recently played'/> <!-- image -->
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
