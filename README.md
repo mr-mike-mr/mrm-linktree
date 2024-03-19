@@ -1,32 +1,19 @@
 # MRM LinkTree
 
-- simple description what its about
-
-## INFO
-
-- detailed description, why i make, etc.
+- Simple static LinkTree
 
 ## SUPPORT
 
-- links, support discord, etc.
+- [Discord MRM Studio](https://discord.gg/SK8Z3uV72k)
 
 ## USED
 
-- [Audio.mp3 - Laci a zároveň Adam - RATATATA (Prod. Smart) |Official Video|
-](https://www.youtube.com/watch?v=8_OALTkeV8k)
-- [GNU 3.0 License](https://www.gnu.org/licenses/gpl-3.0.html)
+- Audio.mp3: [Laci a zároveň Adam - RATATATA (Prod. Smart) |Official Video|](https://www.youtube.com/watch?v=8_OALTkeV8k)
+- License: [GNU 3.0](https://www.gnu.org/licenses/gpl-3.0.html)
 - Languages: HTML5, CSS3
 - Framework: Tailwind.css
 - Libraries: Google fonts, Fontawesome
 
 ## SHOWCASE
 
-- showcase link
-
-## INSTALL GUID
-
-- detailed guid
-
-## USE GUID
-
-- use guid
+![Showcase](https://i.imgur.com/kOV3TLJ.jpg)
