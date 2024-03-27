@@ -2,10 +2,6 @@
 
 - Simple static LinkTree
 
-## SUPPORT
-
-- [Discord MRM Studio](https://discord.gg/SK8Z3uV72k)
-
 ## USED
 
 - Audio.mp3: [Laci a zároveň Adam - RATATATA (Prod. Smart) |Official Video|](https://www.youtube.com/watch?v=8_OALTkeV8k)
