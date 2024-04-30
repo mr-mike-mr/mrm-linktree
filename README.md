@@ -12,4 +12,4 @@
 
 ## SHOWCASE
 
-![Showcase](https://i.imgur.com/kOV3TLJ.jpg)
+![Showcase](https://i.imgur.com/kpfBurU.png)
