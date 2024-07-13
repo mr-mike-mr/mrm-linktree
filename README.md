@@ -1,4 +1,4 @@
-# MRM Linkyree
+# MRM Linktree
 
 - Simple static linktree
 
