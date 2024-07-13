@@ -1,6 +1,6 @@
-# MRM LinkTree
+# MRM Linkyree
 
-- Simple static LinkTree
+- Simple static linktree
 
 ## USED
 
